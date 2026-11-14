@@ -1,0 +1,16 @@
+[project]
+name = "AvroraParser"
+version = "1.0.0"
+description = "Tools for exploring Avrora discounts and syncing product prices"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests",
+    "aiohttp",
+    "aioboto3",
+    "asyncpg",
+    "beautifulsoup4",
+    "python-dotenv",
+    "pillow",
+    "selectolax",
+]
